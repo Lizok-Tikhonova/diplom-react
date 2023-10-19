@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Georgia';
+  src: url('./fonts/Georgia-Bold.eot');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Georgia';
+  src: url('./fonts/Georgia.eot');
+  font-weight: bold;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+body, html{
+  /* min-height: 100vh; */
+	font-family: 'Georgia';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
 }
+
