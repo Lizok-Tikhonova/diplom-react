@@ -33,6 +33,10 @@ body, html{
 .container {
 	margin: 0 auto;
 	padding: 0 15px;
-	max-width: 1200px;
+	max-width:80%;
 }
 
+
+img{
+  max-width: 100%;
+}

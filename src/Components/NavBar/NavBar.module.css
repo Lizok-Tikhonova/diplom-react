@@ -1,7 +1,5 @@
-.nav{
+nav{
     padding: 30px 0 15px 0;
-    border-bottom: 1px solid white;
-
     background-color: #0F0E0E;
 }
 
@@ -40,10 +38,9 @@
     color: white;
     font-size: 18px;
     letter-spacing: 0.2px;
-
-    /* line-height: 130%; 26px */
 }
 
 .hr{
     margin-top: 20px;
+    border-bottom: 0;
 }

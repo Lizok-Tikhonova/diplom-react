@@ -2,7 +2,7 @@ import styles from './NavBar.module.css'
 
 const NavBar = () => {
     return ( 
-        <nav className={styles.nav}>
+        <nav>
             <div className='container'>
                 <div className={styles.nav_row}>
                     <a href="" className={styles.logo}>
