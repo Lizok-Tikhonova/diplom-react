@@ -16,6 +16,7 @@
 body, html{
   /* min-height: 100vh; */
 	font-family: 'Georgia';
+  color: white;
 }
 
 *{
@@ -33,7 +34,8 @@ body, html{
 .container {
 	margin: 0 auto;
 	padding: 0 15px;
-	max-width:80%;
+	max-width:75%;
+  /* max-width: 1200px; */
 }
 
 
