@@ -5,6 +5,8 @@ import Servises from "../../Components/Services/Services";
 import Cosmetics from "../../Components/Cosmetics/Cosmetics";
 import Masters from "../../Components/Masters/Masters";
 import Advantages from "../../Components/Advantages/Advantages";
+import Works from "../../Components/Works/Works";
+import Review from "../../Components/Review/Review";
 
 const Home = () => {
 
@@ -18,6 +20,8 @@ const Home = () => {
                     <Cosmetics/>
                     <Masters/>
                     <Advantages/>
+                    <Works/>
+                    <Review/>
                 </div>
             </main>
         </>

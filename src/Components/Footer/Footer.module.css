@@ -1,0 +1,40 @@
+
+footer{
+    background-color: #0F0E0E;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.footerContent::after {
+    content: "";
+    background: #b4b4b4;;
+    width: 1400px;
+    height: 1px;
+    top: -35px;
+    position: absolute;
+}
+
+
+.logoSignUp{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo span{
+    color: #CEA167;
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 3000px;
+}
