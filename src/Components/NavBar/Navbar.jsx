@@ -21,7 +21,7 @@ const NavBar = () => {
                         </li>
                         <li className={styles.item}>
                             <a href="" className={styles.link}>
-                               Портфолио
+                               Мастера
                             </a>
                         </li>
                         <li className={styles.item}>

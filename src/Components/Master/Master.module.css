@@ -1,0 +1,33 @@
+.master{
+    position: relative;
+    border-radius: 3px;
+}
+.name{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.name::after {
+    content: "";
+    background: white;;
+    width: 225px;
+    height: 1px;
+    top: 45px;
+    left: 0px;
+    position: absolute;
+}
+
+.hr{
+    position: absolute;
+    top: 80%;
+}
+
+.nameLink{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    position: absolute;
+    bottom: 55px;;
+    left: 40px;
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 import Button from "../UI/Button/Button"
 import style from "./Review.module.css"
 import girl from "./girl.png"

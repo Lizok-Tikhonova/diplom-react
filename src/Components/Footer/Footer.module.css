@@ -9,14 +9,14 @@ footer{
     position: relative;
 
 }
-.footerContent::after {
+/* .footerContent::after {
     content: "";
     background: #b4b4b4;;
     width: 1400px;
     height: 1px;
     top: -35px;
     position: absolute;
-}
+} */
 
 
 .logoSignUp{

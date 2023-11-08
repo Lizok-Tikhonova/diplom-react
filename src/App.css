@@ -42,3 +42,8 @@ body, html{
 img{
   max-width: 100%;
 }
+
+main{
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
