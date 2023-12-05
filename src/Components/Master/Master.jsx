@@ -1,9 +1,11 @@
+import { NavLink } from 'react-router-dom';
 import style from './Master.module.css'
 import vector from './Vector.svg'
 
 const Master = ({name, img, id}) => {
 
     return ( 
+        <NavLink to={`/masters/${id}`}>
         <div className={style.master}>
             <img src={img} alt="" className={style.img} />
             <div className={style.nameLink}>
@@ -12,7 +14,8 @@ const Master = ({name, img, id}) => {
             </div>
             
         </div>
-     );
+        </NavLink>
+        );
 }
  
 export default Master;

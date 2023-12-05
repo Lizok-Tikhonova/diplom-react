@@ -39,6 +39,23 @@ nav{
     font-size: 18px;
     letter-spacing: 0.2px;
 }
+.active{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+
+    position: relative;
+}
+
+.active::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #CEA167;
+    top: 120%;
+}
 
 .hr{
     margin-top: 20px;

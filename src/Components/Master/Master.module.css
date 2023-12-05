@@ -2,9 +2,20 @@
     position: relative;
     border-radius: 3px;
 }
+
+.img{
+    border-radius: 7px;
+}
+
+.img:hover{
+    border-radius: 100px;
+    
+}
+
 .name{
     font-size: 22px;
     font-weight: normal;
+    color: white;
 }
 
 .name::after {

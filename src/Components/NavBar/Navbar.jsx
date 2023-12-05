@@ -1,33 +1,36 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import styles from './NavBar.module.css'
+
 
 const NavBar = () => {
     return ( 
         <nav>
             <div className='container'>
                 <div className={styles.nav_row}>
-                    <a href="" className={styles.logo}>
+                    <NavLink to="/" className={styles.logo}>
                         Haircuts<span>&</span>Coloristics
-                    </a>
+                    </NavLink>
                     <ul className={styles.nav_list}>
                         <li className={styles.item}>
-                            <a href="" className={styles.link}>
+                            <NavLink to="/" className={({isActive})=>isActive?styles.active:styles.link}>
                                Главная
-                            </a>
+                            </NavLink>
                         </li>
                         <li className={styles.item}>
-                            <a href="" className={styles.link}>
+                            <NavLink to="/uslugi" className={({isActive})=>isActive?styles.active:styles.link}>
                                Услуги
-                            </a>
+                            </NavLink>
                         </li>
                         <li className={styles.item}>
-                            <a href="" className={styles.link}>
+                            <NavLink to="/masters" className={({isActive})=>isActive?styles.active:styles.link}>
                                Мастера
-                            </a>
+                            </NavLink>
                         </li>
                         <li className={styles.item}>
-                            <a href="" className={styles.link}>
+                            <NavLink to="/contacts"className={({isActive})=>isActive?styles.active:styles.link}>
                                Контакты
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                    

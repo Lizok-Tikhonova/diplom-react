@@ -25,6 +25,7 @@
     gap: 44px;
 }
 
+
 .desc{
     font-size: 20px;
     line-height: 140%; 
@@ -39,6 +40,3 @@
     font-weight: 400;
 }
 
-.img{
-    border-radius: 7px;
-}

@@ -1,10 +1,12 @@
 import style from "./Button.module.css"
+import classnames from 'classnames';
 
-const Button = (props) => {
-    console.log(props)
+
+const Button = ({mix, children}) => {
+
     return ( 
-        <button {...props} className={style.btn}>
-
+        <button className={classnames(style.btn, mix)}>
+            {children}
         </button>
      );
 }
