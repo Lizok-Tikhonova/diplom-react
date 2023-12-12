@@ -11,6 +11,7 @@ const Master = () => {
         <div className="container">
             <section className="master">
                 <h1 className="name">{master.name}</h1>
+                <img src={master.img} alt="img" />
             </section>
             <section className="portfolio"></section>
         </div>
