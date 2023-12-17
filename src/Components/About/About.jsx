@@ -17,7 +17,7 @@ const About = () => {
 
 
     return ( 
-        <div className={style.about}>
+        <section className={style.about}>
             <img src={comands} alt="" className={style.comands} />
             <div className={style.slogan}>
                 <h2 className={style.title}>Мы делаем людей счастливыми и<br/> уверенными в себе!</h2>
@@ -36,7 +36,7 @@ const About = () => {
                 </div>
                 
             </div>    
-        </div>
+        </section>
      );
 }
  

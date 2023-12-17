@@ -12,8 +12,8 @@ import work1_5 from './../img/masters/workMaster1/workMaster1_5.jpg'
 import work1_6 from './../img/masters/workMaster1/workMaster1_6.jpg'
 import work1_7 from './../img/masters/workMaster1/workMaster1_7.jpg'
 import work1_8 from './../img/masters/workMaster1/workMaster1_8.jpg'
-import work1_9 from './../img/masters/workMaster1/workMaster1_9.jpg'
-
+// import work1_9 from './../img/masters/workMaster1/workMaster1_9.jpg'
+// import work1_10 from './../img/masters/workMaster1/workMaster1_10.jpg'
 
 const arrmasters = [
     {
@@ -21,35 +21,35 @@ const arrmasters = [
         role: 'Парикмахер-колорист',
         desc:"       Наталия Лебедева - эксперт в сфере колористики. Имеет профильное образование, прошла более 10ти курсов повышения квалификации и теперь на все 100 уверена в результате. Выполняет работы любого уровня сложности, хорошо ладит с детьми.",
         img:master1,
-        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8,work1_9],
+        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8],
     },
     {
         name:"Наталия Лебедева",
         role: 'Парикмахер',
         desc:"       Наталия Лебедева - эксперт в сфере колористики. Имеет профильное образование, прошла более 10ти курсов повышения квалификации и теперь на все 100 уверена в результате. Выполняет работы любого уровня сложности, хорошо ладит с детьми.",
         img:master2,
-        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8,work1_9],
+        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8],
     },
     {
         name:"Анастасия Нестерова",
         role: 'Колорист',
         desc:"       Наталия Лебедева - эксперт в сфере колористики. Имеет профильное образование, прошла более 10ти курсов повышения квалификации и теперь на все 100 уверена в результате. Выполняет работы любого уровня сложности, хорошо ладит с детьми.",
         img:master3,
-        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8,work1_9],
+        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8],
     },
     {
         name:"Ксения Смирнова",
         role: 'Парикмахер',
         desc:"       Наталия Лебедева - эксперт в сфере колористики. Имеет профильное образование, прошла более 10ти курсов повышения квалификации и теперь на все 100 уверена в результате. Выполняет работы любого уровня сложности, хорошо ладит с детьми.",
         img:master4,
-        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8,work1_9],
+        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8],
     },
     {
         name:"Ева Захарова",
         role: 'Парикмахер-колорист',
         desc:"       Наталия Лебедева - эксперт в сфере колористики. Имеет профильное образование, прошла более 10ти курсов повышения квалификации и теперь на все 100 уверена в результате. Выполняет работы любого уровня сложности, хорошо ладит с детьми.",
         img:master5,
-        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8,work1_9],
+        portfolio:[work1_1,work1_2,work1_3,work1_4,work1_5,work1_6,work1_7,work1_8],
     },
 ]
 
