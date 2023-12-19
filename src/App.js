@@ -5,8 +5,10 @@ import Footer from './Components/Footer/Footer';
 import Masters from './pages/Masters/Masters';
 import Contacts from './pages/Contacts/Contacts';
 import Master from './pages/Master/Master';
+import Services from './pages/Services/Services';
 
 import {Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/masters" element={<Masters/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/masters/:id" element={<Master/>}/>
+        <Route path="/services" element={<Services/>}/>
       </Routes>
 
       <Footer/>

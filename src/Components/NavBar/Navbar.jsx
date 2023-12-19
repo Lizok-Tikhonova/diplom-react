@@ -18,7 +18,7 @@ const NavBar = () => {
                             </NavLink>
                         </li>
                         <li className={styles.item}>
-                            <NavLink to="/uslugi" className={({isActive})=>isActive?styles.active:styles.link}>
+                            <NavLink to="/services" className={({isActive})=>isActive?styles.active:styles.link}>
                                Услуги
                             </NavLink>
                         </li>
