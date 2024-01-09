@@ -6,6 +6,7 @@ import Masters from './pages/Masters/Masters';
 import Contacts from './pages/Contacts/Contacts';
 import Master from './pages/Master/Master';
 import Services from './pages/Services/Services';
+import Reviews from './pages/Reviews/Reviews';
 
 import {Routes, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/masters/:id" element={<Master/>}/>
         <Route path="/services" element={<Services/>}/>
+        <Route path="/reviews" element={<Reviews/>}/>
       </Routes>
 
       <Footer/>

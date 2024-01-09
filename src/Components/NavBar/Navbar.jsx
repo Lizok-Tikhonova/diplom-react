@@ -23,6 +23,11 @@ const NavBar = () => {
                             </NavLink>
                         </li>
                         <li className={styles.item}>
+                            <NavLink to="/reviews" className={({isActive})=>isActive?styles.active:styles.link}>
+                               Отзывы
+                            </NavLink>
+                        </li>
+                        <li className={styles.item}>
                             <NavLink to="/masters" className={({isActive})=>isActive?styles.active:styles.link}>
                                Мастера
                             </NavLink>
