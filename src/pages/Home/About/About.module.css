@@ -29,30 +29,7 @@
     column-gap: 30px;
     row-gap: 30px;
 }
-.item{
-    display: flex;
-    max-width: 300px;
-    align-items: center;
-    gap:20px;
-}
-.sloganTitle{
-    font-size: 22px;
-}
-.sloganText{
-    font-size: 18px;
 
-}
-
-.number{
-    color: #CDAA7D;
-    
-    font-family: Gill Sans MT;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 146.5%; /* 65.925px */
-    letter-spacing: -3.825px;
-}
 .hr{
     width: 15%;
     border-color: #CDAA7D;

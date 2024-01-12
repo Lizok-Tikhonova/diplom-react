@@ -1,7 +1,7 @@
 import React from "react"
 import style from "./Masters.module.css"
 import { arrmasters } from "../../helpers/Masters"
-import Master from "../../Components/Master/Master"
+import Master from "./Master/Master"
 
 
 const Masters = () => {

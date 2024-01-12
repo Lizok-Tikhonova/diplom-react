@@ -1,21 +1,9 @@
 import style from "./About.module.css"
 import comands from './comands.jpg'
+import ItemSlogan from "./ItemSlogan/ItemSlogan";
 
 const About = () => {
     
-    const ItemSlogan = ({number, sloganTitle, sloganText})=>{
-        return(
-            <li className={style.item}>
-                <p className={style.number}>{number}</p>
-                <div className={style.text}>
-                    <p className={style.sloganTitle}>{sloganTitle}</p>
-                    <p className={style.sloganText}>{sloganText}</p>
-                </div>
-            </li>
-        )
-    }
-
-
     return ( 
         <section className={style.about}>
             <img src={comands} alt="" className={style.comands} />

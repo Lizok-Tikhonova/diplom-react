@@ -1,11 +1,11 @@
 import Header from "../../Components/Header/Header";
 import style from "./Home.module.css"
-import About from "../../Components/About/About";
-import Servises from "../../Components/Services/Services";
-import Cosmetics from "../../Components/Cosmetics/Cosmetics";
-import Masters from "../../Components/Masters/Masters";
-import Advantages from "../../Components/Advantages/Advantages";
-import Works from "../../Components/Works/Works";
+import About from "./About/About";
+import Servises from "./Services/Services";
+import Cosmetics from "./Cosmetics/Cosmetics";
+import Masters from "./Masters/Masters";
+import Advantages from "./Advantages/Advantages";
+import Works from "./Works/Works";
 import Review from "../../Components/Review/Review";
 
 const Home = () => {
