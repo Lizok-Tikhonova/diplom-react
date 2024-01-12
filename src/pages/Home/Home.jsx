@@ -1,4 +1,4 @@
-import Header from "../../Components/Header/Header";
+import Header from "./Header/Header";
 import style from "./Home.module.css"
 import About from "./About/About";
 import Servises from "./Services/Services";
@@ -6,7 +6,7 @@ import Cosmetics from "./Cosmetics/Cosmetics";
 import Masters from "./Masters/Masters";
 import Advantages from "./Advantages/Advantages";
 import Works from "./Works/Works";
-import Review from "../../Components/Review/Review";
+import Review from "./Review/Review";
 
 const Home = () => {
 

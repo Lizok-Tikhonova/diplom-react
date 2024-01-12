@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "../UI/Button/Button"
+import Button from "../../../Components/UI/Button/Button";
 import style from "./Review.module.css"
 import girl from "./girl.png"
 import vector1 from "./Vector1.svg"

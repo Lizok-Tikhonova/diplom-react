@@ -1,4 +1,4 @@
-import Button from "../UI/Button/Button";
+import Button from "../../../Components/UI/Button/Button";
 import style from "./Header.module.css"
 import Mouse from './mouse.svg'
 
