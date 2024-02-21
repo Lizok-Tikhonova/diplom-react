@@ -14,7 +14,7 @@ const Masters = () => {
                 <p className={style.slogan}>Мы все разные, но нас объединят Haircuts<span>&</span>Coloristics</p>
                 <div className={style.mastersList}>
                     {arrmasters.map((master, index)=>
-                        <Master key={index} img={master.img} name = {master.name} id={index}/>
+                        <Master key={index} img={master.img} name = {master.name} id={index} statusWork={master.role}/>
                     )}
                 </div>
             </section>

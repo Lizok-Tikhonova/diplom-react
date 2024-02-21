@@ -1,30 +1,7 @@
 import React from "react"
 import styles from "./Services.module.css"
+import ItemServices from "./ItemServices/ItemServices"
 
-
-
-const ItemList = ({title, price})=>{
-    return (
-        <div className={styles.itemList}>
-            <p className={styles.itemList__title}>{title}</p>
-            <p className={styles.itemList__price}>{price}</p>
-        </div>
-    )
-}
-
-const ItemServices = ({title, desc, titleItem1, price1, titleItem2, price2, titleItem3, price3})=>{
-    return(
-        <div className={styles.itemServices}>
-            <h2 className={styles.itemServices__title}>{title}</h2>
-            <p className={styles.desc}>{desc}</p>
-            <div className={styles.listItems}>
-                <ItemList title={titleItem1} price={price1}/>
-                <ItemList title={titleItem2} price={price2}/>
-                <ItemList title={titleItem3} price={price3}/>
-            </div>
-        </div>
-    )
-}
 
 const Services = ()=>{
     return(
