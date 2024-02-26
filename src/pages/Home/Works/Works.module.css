@@ -3,17 +3,18 @@
     flex-direction: column;
     padding: 100px 0;
     align-items: center;
-    /* text-align: right; */
 
     position: relative;
 }
 
 .works{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 60px;
-    column-gap: 30px;
-    justify-content: space-between;
+    column-count: 4;
+    column-gap: 0;
+
+    padding: 0 90px;
+}
+.img{
+    margin-bottom: 15px;
 }
 
 .title{
@@ -25,14 +26,14 @@
     text-decoration:none;
     color: white;
     font-size: 20px;
-    /* margin-bottom: 70px; */
+    margin-right: 100px;
     position: relative;
 }
 
 .link::before{
     content: "";
     background: #CEA167;;
-    width: 205px;
+    width: 200px;
     height: 1px;
     top: 35px;
     position: absolute;

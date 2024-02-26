@@ -53,6 +53,7 @@
 }
 .img{
     border-radius: 4px;
+    padding-bottom: 5px;
 }
 .imgMaster__name{
     font-size: 20px;
@@ -76,6 +77,7 @@
   column-count: 4;
   column-gap: 0;
 }
+
 .work{
     margin: 8px;
     border-radius: 3px;
