@@ -10,7 +10,7 @@ import img6 from "./img6.jpg"
 const Servic = ({name, img})=>{
     return(
         <div className={style.servic}>
-            <img src={img} alt="" className={style.img} />
+            <img src={img} alt="variant_services" className={style.img} />
             <p className={style.name}>{name}</p>
         </div>
     )

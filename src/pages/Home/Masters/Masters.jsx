@@ -8,7 +8,7 @@ import master5 from './master5.jpg'
 const Master = ({img, description})=>{
     return(
         <div className={style.master}>
-            <img src={img} alt="" className={style.img} />
+            <img src={img} alt="master" className={style.img} />
             <p className={style.desc}>{description}</p>
         </div>
     )

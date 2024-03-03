@@ -6,7 +6,6 @@ const Master = () => {
     const idMaster = useParams();
     const master = arrmasters[idMaster.id];
     const works = master.portfolio
-    console.log(works)
 
     return ( 
     <main>
@@ -22,7 +21,7 @@ const Master = () => {
                             {master.desc}
                         </p>
                         <div className={styles.imgMaster}>
-                            <img src={master.img} alt="img" className={styles.img}/>
+                            <img src={master.img} alt="photo" className={styles.img}/>
                             <p className={styles.imgMaster__name}>{master.name}</p>
                             <p className={styles.imgMaster__role}>{master.role}</p>
                         </div>
@@ -33,7 +32,7 @@ const Master = () => {
                     <div className={styles.worksMaster}>
                             {works.map((work, index)=>
                                 <div className={styles.wrapperImg}>
-                                    <img src={work} key={index} className={styles.work}/>
+                                    <img src={work} alt="work" key={index} className={styles.work}/>
                                 </div>
                             )}
                     </div>

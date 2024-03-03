@@ -2,14 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { arrmasters } from "../../../helpers/Masters"
 import style from "./Works.module.css"
-// import work1 from "./work1.jpg"
-// import work2 from "./work2.jpg"
-// import work3 from "./work3.jpg"
-// import work4 from "./work4.jpg"
-// import work5 from "./work5.jpg"
-// import work6 from "./work6.jpg"
-// import work7 from "./work7.jpg"
-// import work8 from "./work8.jpg"
+
 
 console.log(arrmasters[0].portfolio[1])
 const Works = ()=>{

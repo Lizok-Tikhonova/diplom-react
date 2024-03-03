@@ -8,12 +8,12 @@ const Master = ({name, img, id, statusWork}) => {
         <NavLink to={`/masters/${id}`}>
         <div className={style.master}>
             <div className={style.img}>
-                <img src={img} alt=""/>
+                <img src={img} alt="photo"/>
             </div>
             <div className={style.workName}>
                 <div className={style.nameLink}>
                     <p className={style.name}>{name}</p>
-                    <img src={vector} alt="" className={style.triangel} />
+                    <img src={vector} alt="line" className={style.triangel} />
                 </div>
                 <span className={style.statusWork}>{statusWork}</span>
             </div>

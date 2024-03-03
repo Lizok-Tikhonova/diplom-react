@@ -8,7 +8,7 @@ const Advantages = () => {
     const AdvantagesItem = ({img, desc})=>{
         return(
             <div className={style.advantagesItem}>
-                <img src={img} alt="" className={style.img} />
+                <img src={img} alt="instruments" className={style.img} />
                 <p className={style.desc}>{desc}</p>
             </div>
         )

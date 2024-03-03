@@ -1,16 +1,16 @@
 import style from "./Cosmetics.module.css"
-import cosm1 from './cosm1.png'
-import cosm2 from './cosm2.png'
-import cosm3 from './cosm3.png'
-import cosm4 from './cosm4.png'
+import kevinMurphy from './cosm1.png'
+import oribe from './cosm2.png'
+import alterna from './cosm3.png'
+import aldoCoppola from './cosm4.png'
 
 const Cosmetics = () => {
     return ( 
         <div className={style.cosmetics}>
-            <img src={cosm1} alt="" className={style.item} />
-            <img src={cosm2} alt="" className={style.item} />
-            <img src={cosm3} alt="" className={style.item} />
-            <img src={cosm4} alt="" className={style.item} />
+            <img src={kevinMurphy} alt="kevinMurphy" className={style.item} />
+            <img src={oribe} alt="oribe" className={style.item} />
+            <img src={alterna} alt="alterna" className={style.item} />
+            <img src={aldoCoppola} alt="aldoCoppola" className={style.item} />
         </div>
      );
 }

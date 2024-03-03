@@ -7,7 +7,6 @@
 }
 
 .masters{
-
     display: flex;
     flex-wrap: wrap;
     column-gap: 90px;
@@ -21,10 +20,8 @@
     text-align: center;
     align-items: center;
     width: 355px;
-    
     gap: 44px;
 }
-
 
 .desc{
     font-size: 20px;

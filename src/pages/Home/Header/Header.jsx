@@ -16,7 +16,7 @@ const Header = () => {
                         <Button>записаться</Button>
                     </div>
                     <div className={style.down}>
-                        <img src={Mouse} className={style.mouse}></img>
+                        <img src={Mouse} className={style.mouse} alt='mouse'></img>
                         <span className={style.mouseText}>прокрутите вниз</span>
                     </div>
                 </div>

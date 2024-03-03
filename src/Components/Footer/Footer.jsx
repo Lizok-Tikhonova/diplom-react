@@ -31,7 +31,7 @@ const Footer = () => {
 					</div>
 					<div className={styles.item}>
 						<h2 className={styles.title}>Я в VK</h2>
-						<img src={vk} alt="" className={styles.vk} />
+						<img src={vk} alt="vk" className={styles.vk} />
 					</div>
 				</div>
 			</div>

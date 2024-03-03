@@ -7,11 +7,9 @@
     overflow: hidden;
 }
 
-.img{
-    border-radius: 7px;
-}
 .img img{
     opacity: 0.7;
+    border-radius: 5px;
 }
 
 .name{
