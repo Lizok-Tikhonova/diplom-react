@@ -3,7 +3,6 @@ import comands from './comands.jpg'
 import ItemSlogan from "./ItemSlogan/ItemSlogan";
 
 const About = () => {
-    
     return ( 
         <section className={style.about}>
             <img src={comands} alt="comands" className={style.comands} />

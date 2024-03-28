@@ -21,8 +21,7 @@ const Services = ()=>{
                              titleItem1={'Карэ'} price1={6200} titleItem2={'Длина до лопаток'} price2={8000} titleItem3={'Длинные волосы'} price3={10000}/>
                 </section>
             </div>
-        </main>
-        
+        </main>    
     )
 }
 

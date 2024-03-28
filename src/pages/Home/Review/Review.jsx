@@ -1,20 +1,7 @@
 import React from 'react';
-import Button from "../../../Components/UI/Button/Button";
 import style from "./Review.module.css"
 import { Link } from 'react-router-dom';
-import girl from "./girl.png"
-import vector1 from "./Vector1.svg"
-import vector2 from "./Vector2.svg"
-
-
-const ItemReview = ({name, text}) => {
-    return(
-        <div className={style.ItemReview}>
-            <p className={style.name}>{name}</p>
-            <p className={style.text}>{text}</p>
-        </div>
-    )
-} 
+import ItemReview from './ItemReview/ItemReview';
 
 
 const Review = ()=>{

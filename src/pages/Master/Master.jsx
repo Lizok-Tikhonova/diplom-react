@@ -37,11 +37,8 @@ const Master = () => {
                             )}
                     </div>
                 </div>
-                
-                
             </section>
         </div>
-        
     </main>
     );
 }

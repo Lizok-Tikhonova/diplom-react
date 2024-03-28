@@ -1,18 +1,11 @@
+import React from "react"
+import AdvantagesItem from "./AdvantagesItem/AdvantagesItem"
 import style from "./Advantages.module.css"
 import person from './person.png'
 import scissors from './scissors.png'
 import shampu from './shampu.png'
 
 const Advantages = () => {
-
-    const AdvantagesItem = ({img, desc})=>{
-        return(
-            <div className={style.advantagesItem}>
-                <img src={img} alt="instruments" className={style.img} />
-                <p className={style.desc}>{desc}</p>
-            </div>
-        )
-    }
     return ( 
         <section className={style.advantages}>
             <div className={style.advantagesList}>
@@ -21,7 +14,7 @@ const Advantages = () => {
                 <AdvantagesItem img={person} desc={'Счастливые клиенты каждый день'}/>
             </div>
         </section>
-     );
+    );
 }
  
 export default Advantages;

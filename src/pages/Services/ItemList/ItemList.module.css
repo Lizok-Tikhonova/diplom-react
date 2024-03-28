@@ -9,9 +9,11 @@
     margin-top: 80px;
     gap: 10px;
 }
+
 .title{
     font-size: 32px;
 }
+
 .price{
     font-size: 28px;
     color: #DD9F50;

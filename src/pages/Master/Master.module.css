@@ -55,10 +55,12 @@
     border-radius: 4px;
     padding-bottom: 5px;
 }
+
 .imgMaster__name{
     font-size: 20px;
     font-weight: normal;
 }
+
 .imgMaster__role{
     font-size: 14px;
 }
@@ -69,6 +71,7 @@
     align-items: center;
     gap: 100px;
 }
+
 .titleWork{
     font-size: 44px;
 }

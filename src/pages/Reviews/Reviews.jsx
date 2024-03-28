@@ -18,12 +18,9 @@ const Reviews = () => {
                             <Review name={review.name} text={review.text} key={index}/>
                         )}
                     </div>
-                    
                 </section>
             </div>
         </main>
-       
-        
     )
 }
 

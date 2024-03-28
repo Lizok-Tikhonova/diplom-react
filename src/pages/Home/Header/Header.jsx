@@ -19,11 +19,10 @@ const Header = () => {
                         <img src={Mouse} className={style.mouse} alt='mouse'></img>
                         <span className={style.mouseText}>прокрутите вниз</span>
                     </div>
-                </div>
-                
+                </div> 
             </div>
         </header>
-     );
+    );
 }
  
 export default Header;

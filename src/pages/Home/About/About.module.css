@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
-
 }
 
 .slogan{
@@ -16,6 +15,7 @@
 
     max-width: 660px;
 }
+
 .title{
     font-weight: normal;
     font-size: 32px;
@@ -36,12 +36,14 @@
     border-bottom: 0;
     border-width: 2px;
 }
+
 .titleDown{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap:20px;
 }
+
 .title2{
     font-weight: normal;
     font-size: 30px;

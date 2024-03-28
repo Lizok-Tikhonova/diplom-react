@@ -12,9 +12,8 @@
   font-style: normal;
 }
 
-
 body, html{
-  /* min-height: 100vh; */
+  min-height: 100vh;
 	font-family: 'Georgia2';
   color: white;
 }
@@ -28,7 +27,6 @@ body, html{
 .App{
 	display: flex;
 	flex-direction: column;
-  min-height: 100vh;
 }
 
 .container {
@@ -36,7 +34,6 @@ body, html{
 	padding: 0 50px;
   max-width: 1400px;
 }
-
 
 img{
   max-width: 100%;
@@ -47,6 +44,6 @@ main{
   margin-bottom: -1px;
 }
 
-a {
+a{
   text-decoration: none;
 }
