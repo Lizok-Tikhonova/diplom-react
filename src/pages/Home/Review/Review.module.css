@@ -1,27 +1,28 @@
+
 .review{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    text-align: center;
-    gap: 52px;
     padding: 100px 0;
+    column-gap: 52px;
+    row-gap: 70px;
+    align-items: center;
 }
 
 .reviewWrapper{
     display: flex;
-    justify-content: space-between;
+    column-gap: 130px;
+    row-gap: 20px;
+    justify-content: center;
 }
-.reviewContent{
+
+.ItemReview{
     display: flex;
     flex-direction: column;
-    gap: 45px;
-    align-items:center;
+    gap: 15px;
+    max-width: 17em;
+    text-align: center;
 }
-.people{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+
 .title{
     font-size: 44px;
     font-weight: normal;
@@ -30,8 +31,32 @@
 .name{
     font-size: 32px;
 }
-.desc{
-    font-size: 24px;
+
+.text{
+    font-size: 20px;
     color: #B8ACAC;
-    width: 70%;
+}
+
+.link{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.link::before{
+    content: "";
+    background: #CEA167;;
+    width: 185px;
+    height: 1px;
+    top: 35px;
+    position: absolute;
+}
+
+.wraperLink{
+    /* margin-bottom: 70px; */
+    display: flex;
+    justify-content: right;
+    min-width: 100%;
 }
