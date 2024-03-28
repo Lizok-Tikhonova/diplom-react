@@ -4,7 +4,6 @@ import Button from "../../Components/UI/Button/Button";
 import Iframe from 'react-iframe'
 
 const Contacts = () => {
-
     return (
         <>
             <main>
@@ -30,7 +29,6 @@ const Contacts = () => {
                 </div>
             </main>
         </>
-
     );
 }
 

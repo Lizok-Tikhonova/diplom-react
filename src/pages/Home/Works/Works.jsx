@@ -4,7 +4,6 @@ import { arrmasters } from "../../../helpers/Masters"
 import style from "./Works.module.css"
 
 
-console.log(arrmasters[0].portfolio[1])
 const Works = ()=>{
     return(
         <section className={style.ourWorks}>

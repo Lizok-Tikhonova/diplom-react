@@ -15,12 +15,10 @@
     justify-content: center;
 }
 
-
 .title{
     font-size: 44px;
     font-weight: normal;
 }
-
 
 .link{
     text-decoration:none;
@@ -40,7 +38,6 @@
 }
 
 .wraperLink{
-    /* margin-bottom: 70px; */
     display: flex;
     justify-content: right;
     min-width: 100%;
