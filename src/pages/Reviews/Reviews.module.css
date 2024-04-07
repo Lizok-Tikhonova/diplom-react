@@ -1,6 +1,7 @@
 .reviews{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     text-align: center;
     gap: 120px;
     padding: 0 50px 0 50px;
@@ -9,6 +10,7 @@
 .wrapperReviews{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     gap: 70px;
     overflow-y: scroll;
 }

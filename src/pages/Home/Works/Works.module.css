@@ -12,7 +12,12 @@
     column-gap: 0;
 
     padding: 0 90px;
+
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
 }
+
 .img{
     margin-bottom: 15px;
 }
@@ -22,6 +27,7 @@
     font-weight: normal;
     margin-bottom: 70px;
 }
+
 .link{
     text-decoration:none;
     color: white;
@@ -45,3 +51,15 @@
     justify-content: right;
     min-width: 100%;
 }
+
+
+@media (max-width: 900px){
+    .works{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        /* column-count: 0; */
+        column-gap: 20px;
+    }
+} 

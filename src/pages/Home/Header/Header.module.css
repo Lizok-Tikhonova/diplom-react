@@ -48,3 +48,12 @@ button{
     align-items: center;
     gap:10px;
 }
+
+@media (max-width: 700px){
+    .title{
+        font-size: 45px;
+    }
+    .paragraf{
+        font-size: 20px;
+    }
+} 

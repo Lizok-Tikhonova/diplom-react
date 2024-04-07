@@ -32,4 +32,13 @@
     font-size: 20px;
 }
 
+@media (max-width:700px) {
+  .servic {
+    max-width: 250px;
+  }
+  .services{
+    justify-content: center;
+  }
+}
+
 

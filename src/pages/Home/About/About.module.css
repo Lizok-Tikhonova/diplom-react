@@ -50,9 +50,8 @@
 
 }
 
-
-/* @media (min-width:2100px){
+@media (max-width:1400px){
     .about{
        justify-content: center;
     }
-} */
+}

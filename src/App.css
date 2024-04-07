@@ -40,8 +40,8 @@ img{
 }
 
 main{
-  /* margin-top: -1px; */
-  /* margin-bottom: -1px; */
+  margin-top: -1px;
+  margin-bottom: -1px;
   padding: 100px 0;
   background-color: #0F0E0E;
 }
